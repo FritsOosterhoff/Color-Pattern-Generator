@@ -1,0 +1,158 @@
+
+
+    public void setQuery(SQLite db, ArrayList<Color_part> main) {
+        ContentValues cv = new ContentValues();
+        cv.put(db.color_name, f.getDate());
+        cv.put(db.color_date, f.getDate());
+        int d = 1;
+        for (Color_part cp : main) {
+            if (cp.isChecked()) {
+                cv.put("color_" + d++, cp.getColor1());
+            }
+        }
+    }
+
+
+
+
+
+
+        /*
+
+        if (getIntent().getStringExtra("color") != null) {
+
+            final String color_picked = getIntent().getStringExtra("color");
+
+            if (adapter.getCount() != nBasic_list)
+                nBasic_list = adapter.getCount();
+
+            if (getIntent().getIntExtra("position", 0) < nBasic_list) {
+                int pos = getIntent().getIntExtra("position", 0);
+                mParts.remove(pos);
+                mParts.add(pos, new Color_part(color_picked));
+                mParts.get(pos).setChecked(true);
+            }
+        }
+
+         */
+
+
+    /**
+     *  int pos = getIntent().getIntExtra("position", 0);
+     mParts.remove(pos);
+     mParts.add(pos, new Color_part(color_picked));
+     mParts.get(pos).setChecked(true);
+     */
+
+
+    /**
+     * public void getStringData() {
+     * if (d.getStringExtra("color") != null) {
+     * <p/>
+     * final String color_picked = getIntent().getStringExtra("color");
+     * if (d.getIntExtra("position", 0) < nBasic_list) {
+     * int pos = d.getIntExtra("position", 0);
+     * mParts.remove(pos);
+     * mParts.add(pos, new Color_part(color_picked));
+     * mParts.get(pos).setChecked(true);
+     * }
+     * }
+     * }
+     */
+
+
+    /**
+     * @Override public boolean onCreateOptionsMenu(Menu menu) {
+     * getMenuInflater().inflate(R.menu.menu_edit, menu);
+     * return true;
+     * }
+     * @Override public boolean onOptionsItemSelected(MenuItem item) {
+     * <p/>
+     * switch (item.getItemId()) {
+     * case R.id.edit:
+     * <p/>
+     * final AlertDialog.Builder adb = new AlertDialog.Builder(new ContextThemeWrapper(this, R.style.myDialog));
+     * adb.setTitle(R.string.color_edit_title).setMessage(R.string.color_edit_message);
+     * <p/>
+     * LinearLayout d;
+     * d = new LinearLayout(getApplicationContext());
+     * for (Color_part cp : mParts) {
+     * <p/>
+     * EditText input = new EditText(getApplicationContext());
+     * LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+     * LinearLayout.LayoutParams.MATCH_PARENT,
+     * LinearLayout.LayoutParams.MATCH_PARENT, 400);
+     * input.setLayoutParams(lp);
+     * input.setHint(cp.getColor1());
+     * d.addView(input);
+     * }
+     * <p/>
+     * <p/>
+     * adb.setView(d);
+     * <p/>
+     * adb.setPositiveButton(getString(R.string.positive), new DialogInterface.OnClickListener() {
+     * @Override public void onClick(DialogInterface dialog, int which) {
+     * <p/>
+     * <p/>
+     * }
+     * }).setNegativeButton(getString(R.string.negative), new DialogInterface.OnClickListener() {
+     * @Override public void onClick(DialogInterface dialog, int which) {
+     * dialog.dismiss();
+     * }
+     * }).create().show();
+     * break;
+     * default:
+     * break;
+     * }
+     * <p/>
+     * return super.
+     * <p/>
+     * onOptionsItemSelected(item);
+     * <p/>
+     * }
+     */
+
+
+
+
+/**
+ *
+ if (getIntent().getStringExtra("color") != null) {
+
+ final String color_picked = getIntent().getStringExtra("color");
+
+ if (adapter.getCount() != nBasic_list)
+ nBasic_list = adapter.getCount();
+
+ if (getIntent().getIntExtra("position", 0) < nBasic_list) {
+ int pos = getIntent().getIntExtra("position", 0);
+ mParts.remove(pos);
+ mParts.add(pos, new Color_part(color_picked));
+ mParts.get(pos).setChecked(true);
+ }
+ }
+
+ */
+
+
+/**
+ *        array_color = getLayoutInflater().inflate(R.layout.color_array, null); //
+ lv.addFooterView(array_color);
+
+ */
+/**
+ *     name = inflater.inflate(R.layout.name, null);
+ edit_name = (EditText) name.findViewById(R.id.edit_name);
+ */
+
+     lvl.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+             @Override
+             public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
+                 final Color_part cp = (Color_part) lvl.getItemAtPosition(position);
+
+                 final ImageView button = (ImageView) view.findViewById(R.id.butn);
+                 final TextView id_row = (TextView) view.findViewById(R.id.row_id);
+
+
+             }
+         });

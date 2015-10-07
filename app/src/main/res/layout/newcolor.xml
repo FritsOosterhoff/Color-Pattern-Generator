@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_frame_color_mode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/t1" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/t2" />
+
+        <TextView
+            android:id="@+id/color_container_5"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+
+            android:layout_below="@id/t3" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/color_container_5" />
+
+        <Button
+            android:id="@+id/butn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Generate" />
+
+    </RelativeLayout>
+</RelativeLayout>

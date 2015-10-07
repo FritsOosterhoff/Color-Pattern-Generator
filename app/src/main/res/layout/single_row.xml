@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/newwave"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    tools:context=".NewColor">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="#80000000"
+            android:maxLength="7"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/edit_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#80000000"
+            android:clickable="true"
+            android:src="@drawable/ic_paint_brush" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/selected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+
+            android:layout_below="@+id/reform"
+            android:layout_marginTop="-10dp"
+            android:background="#74BE20" />
+
+        <!--
+            android:background="#74BE20"
+        #008837
+             android:background="#008837"
+        -->
+
+        <ImageView
+            android:id="@+id/reform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_tick2" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+    <!--
+
+
+
+        <RelativeLayout
+            android:id="@+id/selected"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+
+                android:layout_below="@+id/reform"
+                android:layout_marginTop="-10dp"
+                android:background="#74BE20" />
+
+
+                android:background="#74BE20"
+            #008837
+                 android:background="#008837"
+
+    <ImageView
+    android:id="@+id/reform"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/ic_tick2" />
+
+        </RelativeLayout>
+
+    -->

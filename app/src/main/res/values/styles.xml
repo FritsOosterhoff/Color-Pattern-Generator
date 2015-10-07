@@ -1,0 +1,34 @@
+<resources>
+
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <item name="android:popupMenuStyle">@style/myPopupmenu</item>
+
+    </style>
+
+    <style name="myPopupmenu" parent="Base.Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/popback</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+
+        <item name="android:background">@color/background</item>
+
+        <item name="background">@color/background</item>
+
+
+    </style>
+
+    <style name="myDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+
+</resources>

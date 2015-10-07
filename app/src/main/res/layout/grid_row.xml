@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newwave"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="#20000000"
+            android:orientation="horizontal" />
+
+
+        <LinearLayout
+            android:id="@+id/color_titles"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main"
+            android:layout_marginLeft="10dp">
+            <!--android:layout_centerVertical="true" android:layout_centerHorizontal="true" -->
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:textColor="#000" />
+
+
+            <TextView
+                android:id="@+id/row_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/butn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_selector"
+                android:padding="3dp"
+                android:src="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+                android:tint="#000"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Color Pattern Generator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_title">No data</string>
+    <string name="color_pick_title"> Generate colors!</string>
+    <string name="empty_text">Since you have not saved any color combinations, your saved list is empty.</string>
+    <string name="color_edit_title">Edit your Color set</string>
+    <string name="color_edit_message">To edit a color, set your desired color in the text boxes. A HEX Color string consists of letters A-F and numbers 0 - 9</string>
+    <string name="positive">Ok</string>
+    <string name="negative">Cancel</string>
+    <string name="generate">GENERATE</string>
+    <string name="save">SAVE</string>
+    <string name="plus_one">ADD ONE</string>
+    <string name="menu_selector">Menu Selector</string>
+    <string name="send">Share your pattern!</string>
+    <string name="hex_invalid">The combination you entered is not valid hex</string>
+
+    <color name="acbar">#E53935</color>
+    <color name="acbar_green">#74BE20</color>
+    <color name="background">#376ac3</color>
+    <color name="popback">#999999</color>
+
+    <color name="white">#fff</color>
+</resources>

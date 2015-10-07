@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Frits\Desktop\Color Pattern Generator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\Frits\Desktop\Color Pattern Generator\app\build\intermediates\pre-dexed\release\classes-b62fec527d6416ee4b08f1918ce4576c149b396b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Frits\Desktop\Color Pattern Generator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\Frits\Desktop\Color Pattern Generator\app\build\intermediates\pre-dexed\release\classes-23eb8593787fc53928e762c3f2d5794e75dc2167.jar" />
+    </item>
+    <item
+        jar="C:\Users\Frits\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\Frits\Desktop\Color Pattern Generator\app\build\intermediates\pre-dexed\release\support-annotations-23.0.0-f10fb398c90cf8b4978da8694e2fd01042fb2850.jar" />
+    </item>
+    <item
+        jar="C:\Users\Frits\Desktop\Color Pattern Generator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\Frits\Desktop\Color Pattern Generator\app\build\intermediates\pre-dexed\release\internal_impl-23.0.0-e5ea979e9cecc393d338e5cd2da60dfaeaedba4e.jar" />
+    </item>
+
+</items>
