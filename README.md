@@ -1,5 +1,5 @@
 # Color-Pattern-Generator
-olor Pattern Generator is an easy to use color pattern generator. Color patterns are used in almost every design aspect and thats why this app was made.
+Color Pattern Generator is an easy to use color pattern generator. Color patterns are used in almost every design aspect and thats why this app was made.
 
 
     Copyright 2015     
