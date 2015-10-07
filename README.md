@@ -1,6 +1,10 @@
 # Color-Pattern-Generator
 Color Pattern Generator is an easy to use color pattern generator. Color patterns are used in almost every design aspect and thats why this app was made.
 
+You can find this app on Google play.
+
+https://play.google.com/store/apps/details?id=nl.foit.app.colorcombo
+
 
     Copyright 2015     
 
