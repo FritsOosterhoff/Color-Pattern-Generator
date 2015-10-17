@@ -1,5 +1,13 @@
 # Color-Pattern-Generator
-Color Pattern Generator is an easy to use color pattern generator. Color patterns are used in almost every design aspect and thats why this app was made.
+Create your own color pattern! Colour patterns are used in virtually every design aspect and that is the reason why the request was submitted.
+
+When building your project, you will come to understand that color patterns and combinations are just as important as the shape of the " Material Design " . color combinations can be a vital part of your design project.
+
+Color Pattern Generator includes the following options :
+
+> Save your favorite color combinations
+> Share your favorite color combination
+> Save up to 30 colors as a color combination.
 
 You can find this app on Google play.
 
