@@ -5,9 +5,9 @@ When building your project, you will come to understand that color patterns and 
 
 Color Pattern Generator includes the following options :
 
-> Save your favorite color combinations
-> Share your favorite color combination
-> Save up to 30 colors as a color combination.
+-> Save your favorite color combinations
+-> Share your favorite color combination
+-> Save up to 30 colors as a color combination.
 
 You can find this app on Google play.
 
